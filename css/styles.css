@@ -12,7 +12,7 @@ nav{
   /* width: 150px; */
   display: flex;
   /* flex-basis: 10%; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* background-image: url(/img/6DegreesSoftware_logo.png); */
   height: 80px;
 
@@ -28,54 +28,114 @@ nav{
   height: 660px;
 }
 
-.heroTitle{
+/* .heroTitle{
   display: flex;
   justify-content: space-around;
-  /* flex-basis: 5%; */
-}
+  /* flex-basis: 5%; 
+} */
 
-.hero p {
-  border: 1px solid black;
+.heroTitle {
+  color: #093C71 ;
+  /* border: 1px solid black; */
   font-size: 50px;
+  font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   /* margin-right: 300px;; */
 }
 
+.heroSubTitle{
+  color: #093C71;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .stripe{
-  margin: 1em;
+  /* margin: 1em; */
   border: 1px solid black;
   height: 200px;
   background-color: #093C71;
   opacity: .9;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   /* flex-basis: 50%; */
 }
 
-.stripe p {
-  display: flex;
+.stripeText{
+  color: white;
+  /* display: flex; */
   /* justi */
-  flex-basis: 50%;
+  flex-basis: 30%;
   /* justify-content: space-evenly; */
   /* align-self: flex-end; */
+}
+
+.bold{
+  font-weight: bold;
 
 }
-.icons{
-  height: 300px
+
+.yellowFont{
+  color:#F8D000;
+
+}
+
+.iconSection{
+  padding: 50px;
+  height: 200px;
+  /* align-content: center; */
+  max-width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.row{
+  /* margin: 20px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  height: 100px;
+  display: flex;
+  max-width: 20%;
+  align-items: center;
+
+}
+
+.properSize {
+width: 70px;
+height: 70px;
+margin-right: 20px;
+
 }
 
 .stripeBlack{
   border: 1px solid black;
   height: 100px;
   background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.stripeBlack p {
+  color: white;
+  font-size: 24px;
 }
 
 .stripeBlue{
   border: 1px solid black;
   height: 100px;
   background-color: #093C71;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stripeBlue p {
+  color: white;
+  font-size: 24px;
 }
 
 .bottom {
@@ -104,6 +164,9 @@ nav{
   transform: scaleX(-1);
 }
 
+
+
+/* The following are just example on how to use flexbox */
 
 ul {
   list-style-type: none;
