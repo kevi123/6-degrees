@@ -25,6 +25,8 @@ Remote Web Design Challenge 2: (Everyone) Using Flexbox, code a responsive layou
      <meta name="keywords" content="Web design challenge 2 6 degrees">
      <meta name="description" content="this website is used for web design challenge 2, 6-degrees">
      <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+     <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
      <link rel="stylesheet" href="css/styles.css" type="text/css">
      <title>Web Design Challenge 2</title>
  </head>
@@ -41,26 +43,31 @@ Remote Web Design Challenge 2: (Everyone) Using Flexbox, code a responsive layou
    <div class="hero">
         <div class="row">
             <p class="heroTitle">Some things are just clear.</p>
-            <p>test</p>
+            <p></p>
        </div>
        <div class="row">
            <p class="heroSubTitle">Like credit unions being unique from banks</p>
-           <p>test</p>
+           <p></p>
        </div>
        <div class=" stripe row">
            <div class="stripeText">
                 <p class="bold">6 degrees is the obvious SaaS choice to help credit unions strengthen member relationships. After all, it's not your typical "one-size-fits-all" CRM. 6 Degrees is th eonly cloud-based CRM built just for credit unions</p>
-                <p>Beacuse its designed specifically for you, <span class="yellowFont">6 Degrees is simple, smart, and easy </span>>to pay for. You could say this duck swims circles around its competetion.</p>
+                <p>Beacuse its designed specifically for you, <span class="yellowFont bold">6 Degrees is simple, smart, and easy </span>to pay for. You could say this duck swims circles around its competetion.</p>
             </div>
             <div>
-                <button>Recieve the Case Study</button>
+                <button class="button bold">Recieve the Case Study</button>
             </div>
        </div>
 
    </div>
 
+
+   <div class="stripeWhite">
+       
+   </div>
+
    <div class ="stripeBlack">
-        <p>6 benefits from 6 Degrees</p>
+        <p class="bold">6 benefits from 6 Degrees</p>
         <p></p>
     </div>
 
@@ -77,22 +84,22 @@ Remote Web Design Challenge 2: (Everyone) Using Flexbox, code a responsive layou
         </div>
         <div class="card">
             <img class="properSize" src="img/people-icon.png" alt="people icon">
-            <p>Ensure your business and member profiles are accurate and up-to-date</p>
+            <p>Have accurate visibility to member interactions and inquiries</p>
         </div>
         </div>
 
         <div class="row">
         <div class="card">
             <img class="properSize" src="img/card-icon.png" alt="card icon">
-            <p>Ensure your business and member profiles are accurate and up-to-date</p>
+            <p>Manage relationship events and follow up</p>
         </div>
         <div class="card">
             <img class="properSize" src="img/connection-icon.png" alt="connection icon">
-            <p>Ensure your business and member profiles are accurate and up-to-date</p>
+            <p>Develop powerful reports for the entire organization</p>
         </div>           
         <div class="card">
             <img class="properSize" src="img/calander-icon.png" alt="calendar icon">
-            <p>Ensure your business and member profiles are accurate and up-to-date</p>
+            <p>Create calendars and schedules</p>
         </div>
         </div>
           
@@ -101,13 +108,28 @@ Remote Web Design Challenge 2: (Everyone) Using Flexbox, code a responsive layou
 
 
    <div class ="stripeBlue">
-       <p>Recieve the case study</p>
+       <p class="bold"> Receive the case study</p>
        <p></p>
    </div>
 
-   <div class="bottom">
-       <div>test</div>
-       <div class="bottomImage">test B</div>
+   <div class="bottom ">
+       <div class="row ">
+           <div class="bottomLeft">
+           <p class="bottomText row">Fill out the form to receive a case study of how one Pennsylvania credit union is benefiting from 6 Degrees</p>
+       <!-- </div>  -->
+       <form class="">
+            <input class="inputWidth" type="text" id="fname" name="fname" placeholder="First Name">
+            <input class="inputWidth" type="text" id="lname" name="lname" placeholder="Last Name" style="margin-left: 15%;"> <br>
+            <input class="inputWidth2" type="text" id="lname" name="lname" placeholder="Business Email"> <br>
+            <input class="inputWidth2" type="text" id="lname" name="lname" placeholder="Credit Union">
+        </form>  
+        <button class="button2 bold">Receive the Case Study</button>
+
+    </div>
+
+
+           </div>
+       <div class="bottomImage"></div>
    </div>
 
 

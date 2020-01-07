@@ -1,5 +1,7 @@
 body {margin:0;}
 
+
+
 nav{
   height: 100px;
   border: 1px solid black;
@@ -18,15 +20,29 @@ nav{
 
 }
 
+/* .hero { 
+  max-width: auto;
+  height: 660px;
+  display: block;
+  position: relative; 
+} */
+
 .hero {
   margin: 0em;
   /* padding-left: 20em; */
   max-width: auto;
-  background-image: url(/img/Mom-and-baby2.png);
+  height: 600px;
+  background-image: url(/img/Mom-and-baby2-clear.png);
   background-size: cover;
-  background-position: 70%; /* centers image at this x axis */
-  height: 660px;
+  background-position: 70%;/* centers image at this x axis*/
+  /* opacity: .6; */
+  /* position: absolute; */
+  /* content: ''; */
+  /* z-index: -2; */
 }
+
+
+
 
 /* .heroTitle{
   display: flex;
@@ -36,18 +52,21 @@ nav{
 
 .heroTitle {
   color: #093C71 ;
+  font-family: 'Aleo';
   /* border: 1px solid black; */
-  font-size: 50px;
+  font-size: 64px;
   font-weight: bold;
   display: flex;
+  flex-basis: 30%;
   justify-content: space-around;
   /* margin-right: 300px;; */
 }
 
 .heroSubTitle{
   color: #093C71;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
+  font-family: 'Aleo';
 }
 
 .stripe{
@@ -63,6 +82,7 @@ nav{
 }
 
 .stripeText{
+  font-family: 'Montserrat';
   color: white;
   /* display: flex; */
   /* justi */
@@ -78,8 +98,23 @@ nav{
 
 .yellowFont{
   color:#F8D000;
-
 }
+
+.button {
+  background-color:white;
+  border: 10px solid #F8D000 ;
+  font-size: 30px;
+  font-family: 'Aleo';
+  color: #093C71;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
 
 .iconSection{
   padding: 50px;
@@ -99,7 +134,8 @@ nav{
   height: 100px;
   display: flex;
   max-width: 20%;
-  align-items: center;
+  min-width: 20%;
+  align-items: flex-start;
 
 }
 
@@ -119,9 +155,15 @@ margin-right: 20px;
   align-items: center;
 
 }
+.stripeWhite{
+  background-color: white;
+  height: 50px;
+}
+
 .stripeBlack p {
   color: white;
-  font-size: 24px;
+  font-size: 32px;
+  font-family: 'Aleo';
 }
 
 .stripeBlue{
@@ -135,7 +177,8 @@ margin-right: 20px;
 
 .stripeBlue p {
   color: white;
-  font-size: 24px;
+  font-size: 32px;
+  font-family: 'Aleo';
 }
 
 .bottom {
@@ -144,12 +187,53 @@ margin-right: 20px;
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
-
   height: 600px;
+
 }
 
 .bottom div {
   flex-basis: 100%;
+}
+
+.bottomText{
+  display: flex;
+  flex-basis: 60%;
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+
+.bottomLeft{
+  padding-left: 150px;
+  margin: 20px;
+  max-width: 60% ;
+  /* flex-basis: 50%; */
+}
+.inputWidth{
+width: 40%;
+padding-top: 20px;
+/* margin: 100px; */
+}
+
+.inputWidth2 {
+  width:100%;
+  padding-top: 40px;
+}
+
+input[type=text] {
+  /* width: 80%; */
+  /* padding: 12px 20px; */
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: italic;
+  margin: 8px 0;
+  /* box-sizing: border-box; */
+  /* flex-basis: 100%; */
+  border: 0px solid black;  /*This removes the inherent form border*/
+  border-bottom: 4px solid #F8D000;
+}
+
+.box {
+  border: 1px solid black;
 }
 
 .bottomImage {
@@ -158,12 +242,26 @@ margin-right: 20px;
   background-position: center center;
   max-width: 100%;
 
-
-  
   -webkit-transform: scaleX(-1);   /*These 2 lines will mirror the image*/
   transform: scaleX(-1);
+  opacity: .6;
 }
 
+.button2 {
+  /* padding-top: 20px; */
+  background-color: #093C71;
+  /* border: 10px solid #F8D000 ; */
+  font-size: 12px;
+  font-family: 'Aleo';
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+}
 
 
 /* The following are just example on how to use flexbox */
